@@ -86,7 +86,7 @@ button {
     border-radius: .5em;
     margin: .25em;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     padding: 0;
 }
