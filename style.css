@@ -86,7 +86,7 @@ button {
     border-radius: .5em;
     margin: .25em;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     padding: 0;
 }
@@ -151,8 +151,7 @@ a:hover {
 .card {
     display: grid;
     position: relative;
-    height: 37rem; 
-    grid-template-columns: 15rem; 
+    grid-template-columns: 13rem; 
     padding: 1.25em 2em;
     background-color: #D7CECA;
     box-shadow: 5px 5px 10px #191b1d; 
