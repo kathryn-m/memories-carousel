@@ -1,4 +1,3 @@
-
 const photographerName = document.getElementsByClassName("photographer-name")
 const photographerLink = document.getElementsByClassName("photographer")
 const photoLibraryName = document.getElementsByClassName("photo-library-name")
@@ -7,7 +6,7 @@ const photoLibraryLink = document.getElementsByClassName("photo")
 
 const btnPrevious = document.getElementById("btn-previous")
 const btnNext = document.getElementById("btn-next")
-
+const closeMessage = document.getElementById('close-nav')
 
 let photoCollection = [
     {
@@ -216,7 +215,12 @@ function stopChangePhoto() {
 }
 
 
-const closeMessage = document.getElementById('close-nav')
+
 closeMessage.addEventListener('click', function (){
     document.querySelector(".autoplay-message").style.display = "none"
 })
+
+
+setTimeout(function(){
+    document.querySelector(".autoplay-message").style.display = "none"
+}, 5000)
