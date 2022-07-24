@@ -96,9 +96,9 @@ function createPhotoDisplay(){
         carouselDescriptionDiv.append(photoName)
 
         const photoParagraph = document.createElement("p")
-        photoParagraph.innerHTML = `Photo by <a class ="photographer" href="${currentPhoto.photographerLink}">${currentPhoto.photographerName}</a>
+        photoParagraph.innerHTML = `Photo by <a class ="photographer" target="_blank" rel="noreferrer" href="${currentPhoto.photographerLink}">${currentPhoto.photographerName}</a>
         <br>
-        on <a class="photo" href="${currentPhoto.photoLibraryLink}">${currentPhoto.photoLibraryName}</a>`
+        on <a class="photo" target="_blank" rel="noreferrer" href="${currentPhoto.photoLibraryLink}">${currentPhoto.photoLibraryName}</a>`
         
 
         carouselDescriptionDiv.append(photoParagraph)
